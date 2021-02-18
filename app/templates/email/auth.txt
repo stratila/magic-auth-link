@@ -1,0 +1,4 @@
+Hello, dear user!
+
+Here's your auth link: {{ url_for('auth', token=token, _external=True) }}.
+It's available only for {{ exp }} seconds.

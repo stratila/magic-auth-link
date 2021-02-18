@@ -1,0 +1,7 @@
+<p>Hello, dear user!</p>
+<p>
+    Here's your auth
+    <a href="{{ url_for('auth', token=token, _external=True) }}">
+        link
+    </a>. It's available only for {{exp}} seconds.
+</p>
